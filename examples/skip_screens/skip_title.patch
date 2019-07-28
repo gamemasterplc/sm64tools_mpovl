@@ -1,0 +1,15 @@
+--- sm64.split.orig/levels/game_over_level.s
++++ sm64.split/levels/game_over_level.s
+@@ -9,9 +9,9 @@
+ .word 0x16100000, 0x8016F000, 0x0021F4C0, 0x00269EA0
+ .word 0x170C0013, __load_behavior_data, __load_behavior_data_end
+ .word 0x180C0007, wood_trademark, wood_trademark_end
+-.word 0x1D040000
+-.word 0x1F080100, 0x140002D0
+-.word 0x20040000
++
++.word 0x01100014, game_over_level, game_over_level_end, 0x14000078
++
+ .word 0x1E040000
+ .word 0x29040100
+ .word 0x11080000, LevelProc_8016F5B0 # 8016F5B0

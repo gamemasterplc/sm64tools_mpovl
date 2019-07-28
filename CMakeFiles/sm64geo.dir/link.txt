@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/sm64geo.dir/sm64geo.c.o CMakeFiles/sm64geo.dir/utils.c.o  -o sm64geo  -L/mnt/d/sm64tools/external/lib 

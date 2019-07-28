@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/sm64tools/libsm64.h
+
+/mnt/d/sm64tools/sm64walk.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+libsm64.h
+/mnt/d/sm64tools/libsm64.h
+utils.h
+/mnt/d/sm64tools/utils.h
+
+/mnt/d/sm64tools/utils.h
+stdio.h
+-
+direct.h
+-
+

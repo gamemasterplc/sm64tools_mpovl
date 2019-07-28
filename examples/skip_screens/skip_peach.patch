@@ -1,0 +1,11 @@
+--- sm64.split.orig/sm64.s
++++ sm64.split/sm64.s
+@@ -5996,7 +5996,7 @@
+   lh    $a0, 0x8032ddf4 # lui $a0, 0x8033/lh $a0, -0x220c($a0)
+   jal   proc_80279E44
+   addiu $a0, $a0, -1
+-  beqz  $v0, .Lproc_8024BA8C_170
++  nop
+   nop   
+   lw    $a0, 0x8032d93c # lui $a0, 0x8033/lw $a0, -0x26c4($a0)
+   li    $a1, 0x0C400201 # lui $a1, 0xc40/ori $a1, $a1, 0x201

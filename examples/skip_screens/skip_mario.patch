@@ -1,0 +1,28 @@
+--- sm64.split.orig/levels/game_over_level.s
++++ sm64.split/levels/game_over_level.s
+@@ -28,9 +28,9 @@
+ .word 0x19040002
+ .word 0x170C0013, __load_behavior_data, __load_behavior_data_end
+ .word 0x1A0C000A, mario_bg, mario_bg_end
+-.word 0x1D040000
+-.word 0x1F080100, 0x1400035C
+-.word 0x20040000
++
++.word 0x01100014, game_over_level, game_over_level_end, 0x1400020C
++
+ .word 0x1E040000
+ .word 0x03040002
+ .word 0x34040000
+@@ -48,9 +48,9 @@
+ .word 0x19040003
+ .word 0x170C0013, __load_behavior_data, __load_behavior_data_end
+ .word 0x1A0C000A, mario_bg, mario_bg_end
+-.word 0x1D040000
+-.word 0x1F080100, 0x140003B8
+-.word 0x20040000
++
++.word 0x01100014, game_over_level, game_over_level_end, 0x1400020C
++
+ .word 0x1E040000
+ .word 0x03040002
+ .word 0x34040000

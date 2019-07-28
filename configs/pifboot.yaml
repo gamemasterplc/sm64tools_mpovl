@@ -1,0 +1,24 @@
+# ROM splitter configuration file name: "N64 PIF IPL NTSC" # checksums from ROM header offsets 0x10 and 0x14 # used for auto configuration detection
+checksum1: 0x40898000
+checksum2: 0x3C08A404
+
+# base filename used for outputs (please, no spaces)
+basename: "pif.ntsc"
+
+# ranges to split the ROM into
+# types:
+#   asm      - MIPS assembly block.  Symbol names are in 'labels' list below
+ranges:
+   # start,  end,      type,     label
+   - [0x000000, 0x0000D4, "asm", "rom", 0x1FC00000]
+   - [0x0000D4, 0x000800, "asm", "ram", 0xA4000000]
+
+# Labels for functions or data memory addresses
+# All label addresses are RAM addresses
+# Order does not matter
+labels:
+   - [0x1FC00000, "Reset"]
+   - [0xA4000000, "Main"]
+   - [0xA4000550, "Multiply"]
+   - [0xA4000184, "proc_A4000184"]
+

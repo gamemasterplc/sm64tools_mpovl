@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/sm64tools/libsm64.h
+
+/mnt/d/sm64tools/n64cksum.c
+stdio.h
+-
+stdlib.h
+-
+libsm64.h
+/mnt/d/sm64tools/libsm64.h
+utils.h
+/mnt/d/sm64tools/utils.h
+
+/mnt/d/sm64tools/utils.h
+stdio.h
+-
+direct.h
+-
+

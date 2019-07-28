@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsm64.a  CMakeFiles/sm64.dir/libmio0.c.o CMakeFiles/sm64.dir/libsm64.c.o CMakeFiles/sm64.dir/utils.c.o
+/usr/bin/ranlib libsm64.a

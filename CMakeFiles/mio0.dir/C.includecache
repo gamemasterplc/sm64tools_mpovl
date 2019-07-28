@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/sm64tools/libmio0.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+libmio0.h
+/mnt/d/sm64tools/libmio0.h
+utils.h
+/mnt/d/sm64tools/utils.h
+
+/mnt/d/sm64tools/libmio0.h
+
+/mnt/d/sm64tools/utils.h
+stdio.h
+-
+direct.h
+-
+

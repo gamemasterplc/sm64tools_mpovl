@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/mipsdisasm.dir/mipsdisasm.c.o CMakeFiles/mipsdisasm.dir/utils.c.o CMakeFiles/mipsdisasm.dir/yamlconfig.c.o  -o mipsdisasm  -L/mnt/d/sm64tools/external/lib -Wl,-rpath,/mnt/d/sm64tools/external/lib -lcapstone -lyaml 

@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/f3d.dir/f3d.c.o CMakeFiles/f3d.dir/utils.c.o  -o f3d  -L/mnt/d/sm64tools/external/lib 

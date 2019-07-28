@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/n64graphics.dir/n64graphics.c.o CMakeFiles/n64graphics.dir/utils.c.o  -o n64graphics  -L/mnt/d/sm64tools/external/lib -Wl,-rpath,/mnt/d/sm64tools/external/lib -lpng -lz 

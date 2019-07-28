@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/f3d2obj.dir/blast.c.o CMakeFiles/f3d2obj.dir/f3d2obj.c.o CMakeFiles/f3d2obj.dir/n64graphics.c.o CMakeFiles/f3d2obj.dir/utils.c.o  -o f3d2obj  -L/mnt/d/sm64tools/external/lib -Wl,-rpath,/mnt/d/sm64tools/external/lib -lpng -lz 

@@ -1,0 +1,12 @@
+/mnt/d/sm64tools/CMakeFiles/rebuild_cache.dir
+/mnt/d/sm64tools/CMakeFiles/n64cksum.dir
+/mnt/d/sm64tools/CMakeFiles/n64split.dir
+/mnt/d/sm64tools/CMakeFiles/mipsdisasm.dir
+/mnt/d/sm64tools/CMakeFiles/edit_cache.dir
+/mnt/d/sm64tools/CMakeFiles/mio0.dir
+/mnt/d/sm64tools/CMakeFiles/sm64extend.dir
+/mnt/d/sm64tools/CMakeFiles/sm64.dir
+/mnt/d/sm64tools/CMakeFiles/sm64walk.dir
+/mnt/d/sm64tools/CMakeFiles/f3d.dir
+/mnt/d/sm64tools/CMakeFiles/sm64compress.dir
+/mnt/d/sm64tools/CMakeFiles/sm64geo.dir

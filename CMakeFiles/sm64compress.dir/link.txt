@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/sm64compress.dir/sm64compress.c.o  -o sm64compress  -L/mnt/d/sm64tools/external/lib -Wl,-rpath,/mnt/d/sm64tools/external/lib libsm64.a 

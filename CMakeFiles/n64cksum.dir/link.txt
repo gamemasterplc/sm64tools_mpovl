@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/n64cksum.dir/n64cksum.c.o  -o n64cksum  -L/mnt/d/sm64tools/external/lib -Wl,-rpath,/mnt/d/sm64tools/external/lib libsm64.a 
